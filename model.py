@@ -14,10 +14,14 @@ def preprocess_image(file):
     return img_array
 
 def predict_breed(file):
-    img_array = preprocess_image(file)
-    predictions = model.predict(img_array)[0]
-    breeds = decode_prediction(predictions)
-    return breeds
+    try:
+        img_array = preprocess_image(file)
+        predictions = model.predict(img_array)[0]
+        breeds = decode_prediction(predictions)
+        return breeds
+    except Exception as e:
+        print(f"Error in predict_breed: {e}")
+        return []
 
 def decode_prediction(predictions):
     breed_names = [
