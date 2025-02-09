@@ -1,5 +1,5 @@
 # 🐶 Dog Breed Classification  
-
+🔗 **Live Demo:** [View Project](https://dog-breed-classifier-120.streamlit.app/)  
 This project is a deep learning-based solution for classifying dog breeds using the **Stanford Dogs Dataset**. It leverages **TensorFlow** and **Keras** with a pre-trained **EfficientNetV2S** model to achieve an accuracy of **92%**.
 
 ## 🚀 Features  
