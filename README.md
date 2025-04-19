@@ -1,5 +1,7 @@
 # 🐶 Dog Breed Classification  
-This project is a deep learning-based solution for classifying dog breeds using the **Stanford Dogs Dataset**. It leverages **TensorFlow** and **Keras** with a pre-trained **EfficientNetV2S** model to achieve an accuracy of **92%**.
+This project is a deep learning-based solution for classifying dog breeds using the **Stanford Dogs Dataset**. It leverages **TensorFlow** and **Keras** with a pre-trained **EfficientNetV2S** model to achieve an accuracy of **92%**.   
+
+Video link [https://drive.google.com/file/d/1VbmMFoO42GFdydEuqnc8Pp_mPP8ZYhuq/view?usp=drive_link](https://drive.google.com/file/d/1VbmMFoO42GFdydEuqnc8Pp_mPP8ZYhuq/view?usp=drive_link)
 
 ## 🚀 Features  
 - Classifies images into **120 dog breeds**.  
